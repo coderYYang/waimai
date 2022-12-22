@@ -1,0 +1,50 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #f5f5f5;
+}
+html,
+body,
+#app {
+	height: 100%;
+}
+
+textarea {
+	border: none;
+	outline: none;
+}
+button {
+	border: none;
+	outline: none;
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+li {
+	list-style-type: none;
+}
+
+.pages {
+	height: 100%;
+}
+
+/* 防抖按钮 */
+
+.throttle {
+	animation: throttle 0.5s step-end forwards;
+}
+.throttle:active {
+	animation: none;
+}
+@keyframes throttle {
+	from {
+		pointer-events: none;
+	}
+	to {
+		pointer-events: all;
+	}
+}
+
+/* 防抖按钮 */
